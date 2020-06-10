@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 30, 2019, 11:30:37 AM
+    Author     : TOMIN
+*/
+
+.wrapper {	
+    color: #fff;
+    background: linear-gradient(to right, #fff 30%, #0873ba 10%, #fff 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;                
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;	
+}
+
+@keyframes textclip {
+    to {
+            background-position: 200% center;
+    }
+}
